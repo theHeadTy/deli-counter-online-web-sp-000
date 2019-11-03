@@ -8,7 +8,7 @@ def line(array)
       key += 1
       #The line is currently: 1. Logan 2. Avi 3. Spencer
       puts "The line is currently: #{key}. #{val}"
-    }
+    }.split('\n')
     
   end
     
