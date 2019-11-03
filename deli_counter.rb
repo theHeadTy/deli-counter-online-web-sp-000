@@ -3,8 +3,9 @@ def line(array)
   if array.empty?
     puts 'The line is currently empty.'
   else
-    new = []
     puts "The line is currently:"
+    
+    new = []
     array.each.with_index { |val, key|
       key += 1
       new << "#{key}. #{val}"
