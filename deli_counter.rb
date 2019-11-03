@@ -16,6 +16,14 @@ def take_a_number(array, name)
   puts "Welcome, #{name}. You are number #{array.length} in line."
 end
 
+def now_serving(array)
+  if array.empty?
+    puts "There is nobody waiting to be served!"
+  else
+    puts "#{array.shift}"
+  end
+end
+
 take_a_number([], 'Ada')
 take_a_number(["Logan", "Avi", "Spencer"], 'Grace')
 
