@@ -9,7 +9,7 @@ def line(array)
       #The line is currently: 1. Logan 2. Avi 3. Spencer
       new << "The line is currently: #{key}. #{val}"
     }
-    new.join("\n")
+    puts "#{new.join("\n")}
   end
     
 end
