@@ -7,8 +7,9 @@ def line(array)
     array.each.with_index { |val, key|
       key += 1
       #The line is currently: 1. Logan 2. Avi 3. Spencer
-      new << "The line is currently: #{key}. #{val}"
+      new << "#{key}. #{val}"
     }
+    puts "The line is currently:"
     puts "#{new.join(" ")}"
   end
     
