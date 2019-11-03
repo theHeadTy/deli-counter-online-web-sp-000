@@ -8,3 +8,5 @@ class DeliCounter
 end
 
 deli = DeliCounter.new
+
+deli.line
