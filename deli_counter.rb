@@ -18,4 +18,6 @@ katz_deli = []
 other_deli = ["Logan", "Avi", "Spencer"]
 another_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"]
 
+line(katz_deli)
 line(other_deli)
+line(another_deli)
