@@ -11,9 +11,8 @@ def line(array)
     
 end
 
-line([])
+katz_deli = []
+other_deli = ["Logan", "Avi", "Spencer"]
+another_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"]
 
-
-  let(:katz_deli) { [] }
-  let(:other_deli) { ["Logan", "Avi", "Spencer"] }
-  let(:another_deli) { ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"] }
+line(other_deli)
