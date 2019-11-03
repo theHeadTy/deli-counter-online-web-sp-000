@@ -9,4 +9,4 @@ end
 
 deli = DeliCounter.new
 
-deli.line
+deli.line()
